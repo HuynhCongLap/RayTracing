@@ -246,3 +246,250 @@
 	<cfloat>
 	"vec.h"
 
+1549385000 source:/home/pin/Desktop/Github/RayTracing/gkit2light/src/gKit/app.cpp
+	<cstdio>
+	<cstring>
+	"app.h"
+	"glcore.h"
+
+1549385000 /home/pin/Desktop/Github/RayTracing/gkit2light/src/gKit/app.h
+	"window.h"
+
+1549385000 /home/pin/Desktop/Github/RayTracing/gkit2light/src/gKit/window.h
+	<SDL2/SDL.h>
+
+1549385000 /home/pin/Desktop/Github/RayTracing/gkit2light/src/gKit/glcore.h
+	<OpenGL/gl3.h>
+	"GL/glew.h"
+
+1549385000 source:/home/pin/Desktop/Github/RayTracing/gkit2light/src/gKit/app_time.cpp
+	<chrono>
+	"app_time.h"
+	"texture.h"
+
+1549385000 /home/pin/Desktop/Github/RayTracing/gkit2light/src/gKit/app_time.h
+	"glcore.h"
+	"app.h"
+	"text.h"
+
+1549385000 /home/pin/Desktop/Github/RayTracing/gkit2light/src/gKit/text.h
+	"glcore.h"
+	"color.h"
+	"text.h"
+
+1549385000 /home/pin/Desktop/Github/RayTracing/gkit2light/src/gKit/color.h
+
+1549385000 /home/pin/Desktop/Github/RayTracing/gkit2light/src/gKit/texture.h
+	"glcore.h"
+	"image.h"
+	"image_io.h"
+
+1549385000 /home/pin/Desktop/Github/RayTracing/gkit2light/src/gKit/image.h
+	<cmath>
+	<cassert>
+	<vector>
+	<algorithm>
+	"color.h"
+
+1549385000 /home/pin/Desktop/Github/RayTracing/gkit2light/src/gKit/image_io.h
+	"image.h"
+
+1549385000 source:/home/pin/Desktop/Github/RayTracing/gkit2light/src/gKit/color.cpp
+	"color.h"
+
+1549385000 source:/home/pin/Desktop/Github/RayTracing/gkit2light/src/gKit/draw.cpp
+	"draw.h"
+	"window.h"
+
+1549385000 /home/pin/Desktop/Github/RayTracing/gkit2light/src/gKit/draw.h
+	"mesh.h"
+	"orbiter.h"
+	"window.h"
+
+1549385000 /home/pin/Desktop/Github/RayTracing/gkit2light/src/gKit/mesh.h
+	<vector>
+	<unordered_map>
+	"glcore.h"
+	"vec.h"
+	"mat.h"
+	"color.h"
+
+1549385000 /home/pin/Desktop/Github/RayTracing/gkit2light/src/gKit/vec.h
+	<iostream>
+
+1549385000 /home/pin/Desktop/Github/RayTracing/gkit2light/src/gKit/mat.h
+	"vec.h"
+	<iostream>
+
+1549385000 /home/pin/Desktop/Github/RayTracing/gkit2light/src/gKit/orbiter.h
+	"vec.h"
+	"mat.h"
+
+1549385000 source:/home/pin/Desktop/Github/RayTracing/gkit2light/src/gKit/gamepads.cpp
+	<cassert>
+	<vector>
+	<stdio.h>
+	"gamepads.h"
+
+1549385000 /home/pin/Desktop/Github/RayTracing/gkit2light/src/gKit/gamepads.h
+	<SDL2/SDL.h>
+
+1549385000 source:/home/pin/Desktop/Github/RayTracing/gkit2light/src/gKit/image.cpp
+
+1549385000 source:/home/pin/Desktop/Github/RayTracing/gkit2light/src/gKit/image_hdr.cpp
+	<string>
+	"rgbe.h"
+	"image_hdr.h"
+
+1549385000 /home/pin/Desktop/Github/RayTracing/gkit2light/src/gKit/rgbe.h
+	<cstdio>
+
+1549385000 /home/pin/Desktop/Github/RayTracing/gkit2light/src/gKit/image_hdr.h
+	"image.h"
+
+1549385000 source:/home/pin/Desktop/Github/RayTracing/gkit2light/src/gKit/image_io.cpp
+	<cstdio>
+	<string>
+	<algorithm>
+	<cmath>
+	<SDL2_image/SDL_image.h>
+	<SDL2/SDL_image.h>
+	"image_io.h"
+
+1549385000 source:/home/pin/Desktop/Github/RayTracing/gkit2light/src/gKit/mat.cpp
+	<cassert>
+	<cstdio>
+	<cmath>
+	<algorithm>
+	"mat.h"
+
+1549385000 source:/home/pin/Desktop/Github/RayTracing/gkit2light/src/gKit/mesh.cpp
+	<cstdio>
+	<cassert>
+	<string>
+	<algorithm>
+	"vec.h"
+	"mesh.h"
+	"program.h"
+	"uniforms.h"
+	"window.h"
+
+1549385000 /home/pin/Desktop/Github/RayTracing/gkit2light/src/gKit/program.h
+	<string>
+	"glcore.h"
+
+1549385000 /home/pin/Desktop/Github/RayTracing/gkit2light/src/gKit/uniforms.h
+	<string>
+	"glcore.h"
+	"vec.h"
+	"mat.h"
+	"color.h"
+
+1549385000 source:/home/pin/Desktop/Github/RayTracing/gkit2light/src/gKit/orbiter.cpp
+	<cstdio>
+	<algorithm>
+	"orbiter.h"
+
+1549385000 source:/home/pin/Desktop/Github/RayTracing/gkit2light/src/gKit/program.cpp
+	<fstream>
+	<sstream>
+	<string>
+	<vector>
+	<algorithm>
+	<climits>
+	"program.h"
+
+1549385000 source:/home/pin/Desktop/Github/RayTracing/gkit2light/src/gKit/rgbe.cpp
+	<cmath>
+	<cstdio>
+	<cstdlib>
+	<cstring>
+	<ctype.h>
+	"rgbe.h"
+
+1549385000 source:/home/pin/Desktop/Github/RayTracing/gkit2light/src/gKit/text.cpp
+	<ctype.h>
+	<cstdio>
+	<cstdarg>
+	"program.h"
+	"uniforms.h"
+	"image.h"
+	"image_io.h"
+	"texture.h"
+	"text.h"
+	"window.h"
+
+1549385000 source:/home/pin/Desktop/Github/RayTracing/gkit2light/src/gKit/texture.cpp
+	<cassert>
+	<cstdio>
+	<algorithm>
+	"texture.h"
+	"image_io.h"
+
+1549385000 source:/home/pin/Desktop/Github/RayTracing/gkit2light/src/gKit/uniforms.cpp
+	<cstdio>
+	<set>
+	"program.h"
+	"uniforms.h"
+
+1549385000 source:/home/pin/Desktop/Github/RayTracing/gkit2light/src/gKit/vec.cpp
+	<cmath>
+	"vec.h"
+
+1549385000 source:/home/pin/Desktop/Github/RayTracing/gkit2light/src/gKit/wavefront.cpp
+	<cstdio>
+	<ctype.h>
+	<climits>
+	<algorithm>
+	"wavefront.h"
+
+1549385000 /home/pin/Desktop/Github/RayTracing/gkit2light/src/gKit/wavefront.h
+	"mesh.h"
+
+1549385000 source:/home/pin/Desktop/Github/RayTracing/gkit2light/src/gKit/widgets.cpp
+	<cstdio>
+	<cassert>
+	<cstring>
+	<vector>
+	<algorithm>
+	"window.h"
+	"widgets.h"
+
+1549385000 /home/pin/Desktop/Github/RayTracing/gkit2light/src/gKit/widgets.h
+	"text.h"
+	"widgets.h"
+
+1549385000 source:/home/pin/Desktop/Github/RayTracing/gkit2light/src/gKit/window.cpp
+	<sys/stat.h>
+	<sys/types.h>
+	<sys/stat.h>
+	<cassert>
+	<cstdio>
+	<cstdio>
+	<cstring>
+	<cmath>
+	<vector>
+	<set>
+	<string>
+	<iostream>
+	<SDL2/SDL_power.h>
+	"glcore.h"
+	"window.h"
+
+1549391543 source:/home/pin/Desktop/Github/RayTracing/gkit2light/tutos/tuto10.cpp
+	<cfloat>
+	<random>
+	<chrono>
+	"vec.h"
+	"mesh.h"
+	"wavefront.h"
+	"orbiter.h"
+	"ray.h"
+	"image.h"
+	"image_io.h"
+	"image_hdr.h"
+
+1549384999 /home/pin/Desktop/Github/RayTracing/gkit2light/include/ray.h
+	<cfloat>
+	"vec.h"
+

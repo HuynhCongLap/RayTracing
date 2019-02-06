@@ -184,14 +184,15 @@ int main( const int argc, const char **argv )
                 if(dot(pn, ray.d) > 0)                  // retourne la normale vers l'origine du rayon
                     pn= -pn;
 
+
                 // couleur du pixel
-                std::cout<<"Hit" <<std::endl;
-                Color color= mesh.triangle_material(hit.triangle_id).diffuse;
+                //std::cout<<"Hit" <<std::endl;
+                Color color= mesh.triangle_material(hit.triangle_id).diffuse * std::max(0.0f, dot(-pn, normalize(ray.d)) );
                 image(px, py)= Color(color, 1);
             }
             else
             {
-                std::cout<<"Not Hit" <<std::endl;
+                //std::cout<<"Not Hit" <<std::endl;
             }
         }
     }
